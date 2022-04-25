@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+._*
+
+# IntelliJ
+.idea
+
+# VS Code
+.vscode
+*.code-workspace
