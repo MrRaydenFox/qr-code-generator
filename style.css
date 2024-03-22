@@ -20,13 +20,16 @@ body {
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
-	background: #000;
+	/* background: #000; */
 }
+
+/* Header */
 
 header {
 	display: flex;
 	padding: 40px;
 	justify-content: center;
+	background-color: #000;
 }
 
 h1 span {
@@ -40,29 +43,27 @@ h1 span {
 }
 
 .qr-code {
-	background: linear-gradient(to right, var(--qr-code-color-1), var(--qr-code-color-2));
+	background: linear-gradient(to right, var(--qr-code-color-1), var(--qr-code-color-2),  var(--generator-color-1), var(--generator-color-2));
 	background-clip: content-box;
 	-webkit-background-clip: text;
 	color: transparent;
 }
 
-.generator {
-	background: linear-gradient(to right, var(--generator-color-1), var(--generator-color-2));
-	background-clip: content-box;
-	-webkit-background-clip: text;
-	color: transparent;
-}
+/* Form */
 
 .form-container {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+	background-color: #000;
 }
 
 .form {
 	margin-bottom: 10px;
 	justify-content: center;
-	width: 475px;
+	width: 690px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .form input {
@@ -90,6 +91,7 @@ h1 span {
 	opacity: 0.7;
 }
 
+/* Botón */
 .btn {
 	width: 100%;
 	border: none;
@@ -115,28 +117,24 @@ h1 span {
 	padding: 88px 0;
 }
 
+/* Footer */
 footer {
 	display: flex;
 	margin-top: auto;
-	min-height: 40px;
+	min-height: 50px;
 	background: rgb(28, 27, 27);
 	justify-content: center;
 	align-items: center;
-	font-size: 11px;
+	font-size: 15px;
+	padding: 10px;
 }
 
 .footer-icon {
-	width: 20px;
+	width: 30px;
 	fill: grey;
 	transition: 0.3s;
 }
 
 .footer-icon:hover {
 	fill: #fff;
-}
-
-.copyright {
-	display: block;
-	margin: 0 50px;
-	color: grey
 }
