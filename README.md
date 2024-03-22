@@ -1,19 +1,22 @@
 # QR Code Generator
 
-<details>
-<summary> Table of Contents</summary>
+![App Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square)
 
-- [Description](#description)
-- [References](#references)
+
+<details>
+<summary>Índice</summary>
+
+- [📃 Introducción](#introducción)
+- [🔗 Referencias](#referencias)
 
 </details>
 
 ---
-## Description
-QR code generator with JavaScript.
+## Introducción
+Generador de código QR con JavaScript
 
 ![Demo](doc/demo.gif)
 
 ---
-## References
-[<img class="reference-icon" src="https://cdn.jsdelivr.net/npm/simple-icons@6.12.0/icons/github.svg" width="35px">](https://github.com/davidshimjs/qrcodejs)
+## Referencias
+[![QR Code Library](https://img.shields.io/badge/librería_qrcodejs-grey?style=for-the-badge&logo=github&logoColor=white&labelColor=black)](https://github.com/davidshimjs/qrcodejs)
