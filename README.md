@@ -15,7 +15,7 @@
 ## Introducción
 Generador de código QR con JavaScript
 
-![Demo](doc/demo.gif)
+![Demo](doc/app-screenshot.png)
 
 ---
 ## Referencias
